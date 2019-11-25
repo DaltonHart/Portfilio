@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.full-page {
+  width: 100%;
+  height: 100vh;
+}
+
+.landing {
+  background-color: violet;
+}
+
+.about {
+  background-color: blueviolet;
+}
+
+.projects {
+  background-color: crimson;
+}
+
+.resume {
+  background-color: darkgoldenrod;
+}
