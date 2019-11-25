@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Developer Portfolio For Dalton Hart",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaltonHart/Portfilio.git"
+  },
+  "author": "Dalton Hart daltonhart.j@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaltonHart/Portfilio/issues"
+  },
+  "homepage": "https://github.com/DaltonHart/Portfilio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
