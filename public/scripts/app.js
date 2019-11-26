@@ -5,5 +5,14 @@ $.scrollify({
   scrollbars: false,
   scrollSpeed: 400,
   overflowScroll: true,
-  updateHash: false
+  updateHash: false,
+  touchScroll: true
 });
+
+const handleClick = e => {
+  $('.nav__item').removeClass('current');
+  $(e.target).addClass('current');
+  $.scrollify.move(`#${$(e.target).data('number')}`);
+};
+
+$('.nav').on('click', '.nav__item', handleClick);
