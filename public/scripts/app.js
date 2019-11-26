@@ -4,9 +4,10 @@ $.scrollify({
   section: '.full-page',
   scrollbars: false,
   scrollSpeed: 400,
-  overflowScroll: true,
+  // overflowScroll: true,
   updateHash: false,
-  touchScroll: true
+  touchScroll: true,
+  setHeights: false
 });
 
 const handleClick = e => {

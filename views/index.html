@@ -4,14 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script src="/vendor/jquery.js"></script>
-    <script src="/vendor/scrollify.js"></script>
-    <script src="/vendor/anime.js"></script>
+    <script src="/vendor/jquery.js" defer></script>
+    <script src="/vendor/scrollify.js" defer></script>
     <script src="/scripts/app.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
     <link rel="stylesheet" href="styles/main.css" />
     <title>Dalton Hart</title>
   </head>
   <body>
+    <!-- nav -->
     <div class="nav">
       <ul>
         <li class="current nav__item" data-number="1">Landing</li>
@@ -20,6 +24,32 @@
         <li class="nav__item" data-number="4">Resume</li>
       </ul>
     </div>
+    <!-- share button -->
+    <div class="share__button">
+      <span class="share__button__cover">
+        <div class="share__button__cover__image">
+          <img
+            src="https://www.shareicon.net/data/2016/07/26/802011_man_512x512.png"
+            alt=""
+          />
+        </div>
+
+        Chat with me!
+      </span>
+      <a class="share__icon--facebook" href="#">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a class="share__icon--twitter" href="#">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a class="share__icon--instagram" href="#">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a class="share__icon--linkedin" href="#">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </div>
+    <!-- sections -->
     <div class="full-page landing">landing</div>
     <div class="full-page about">about</div>
     <div class="full-page projects">projects</div>
